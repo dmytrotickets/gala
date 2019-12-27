@@ -2,13 +2,13 @@ PATH
   remote: .
   specs:
     gala (0.3.2)
-      openssl (~> 2.0)
+      openssl (~> 0.1)
 
 GEM
   remote: https://rubygems.org/
   specs:
     minitest (5.11.3)
-    openssl (2.1.0)
+    openssl (0.1.0)
     rake (12.3.1)
 
 PLATFORMS
