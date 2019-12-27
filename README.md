@@ -9,7 +9,7 @@ Gala is available under the MIT License.
 ## Ruby support
 
 * For Ruby v2.3 and below, please use the [legacy-ruby branch](https://github.com/spreedly/gala/commits/legacy-ruby), or specify gala v0.3.2.
-* For Ruby >= 2.4, use the master branch or specify gala v0.4 and above
+* For Ruby >= 2.2, use the master branch or specify gala v0.4 and above
 
 ## Install
 
@@ -99,13 +99,13 @@ $ rake release
 ### v0.4.0
 
 * Remove unmaintained `aead` gem dependency
-* Rely on Ruby 2.4 openssl support for aes-256-gcm ciphers (and specifying the initialization vector length).
+* Rely on Ruby 2.2 openssl support for aes-256-gcm ciphers (and specifying the initialization vector length).
 
 ### v0.3.2
 
 * Setup CircleCI for more comprehensive Ruby version/compatibility testing
 * Use Minitest instead of TestUnit to more seamlessly support higher Ruby versions
-* Last planned release that supports < Ruby 2.4
+* Last planned release that supports < Ruby 2.2
 
 ### v0.3.1
 

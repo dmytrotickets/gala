@@ -1,8 +1,8 @@
 version: 2
 jobs:
-  ruby-2.4:
+  ruby-2.2:
     docker:
-      - image: circleci/ruby:2.4.4
+      - image: circleci/ruby:2.2.4
     steps:
       - checkout
       - run: bundle
@@ -18,5 +18,5 @@ workflows:
   version: 2
   rubies:
     jobs:
-      - ruby-2.4
+      - ruby-2.2
       - ruby-2.5
